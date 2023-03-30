@@ -34,7 +34,7 @@
   <body>
     <header>
       <nav>
-        <ul id="header">
+        <ul id="navbar">
           <li id="header1"><a href="index.html"><span class="material-symbols-outlined">
             home
             </span>Inicio</a></li>
@@ -55,7 +55,7 @@
             location_on
             </span>Farmacias Cercanas</a></li>
 
-          <li  id="header1" style="float:right"><a class="active1 rigth" href="#about"><span class="material-symbols-outlined rigth">
+          <li id="header1" style="float:right"><a class="active1 rigth" href="#about"><span class="material-symbols-outlined rigth">
             groups
             </span>Sobre Nosotros</a></li>
 
@@ -67,12 +67,15 @@
       </nav>
     </header>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+
       </ol>
     
       <!-- Wrapper for slides -->
@@ -85,19 +88,28 @@
         
         <div class="item">
           <div class="d-flex justify-content-center align-items-center">
-
             <img src="images/288110-comprimido-berries-20-unidades.jpg" alt="Chicago">
           </div>
         </div>
     
         <div class="item">
           <div class="d-flex justify-content-center align-items-center">
-
             <img src="images/295823-vitamin-c--20-tabletas-efervecentes-sabor-limon-1000-mg (1).jpg" alt="New York">
           </div>
         </div>
 
-      
+        <div class="item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="images/213062-capsulas-vitamina-e-30-unidades.jpg" alt="New York">
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="images/274648-hot-lubricante-de-40-ml.jpg" alt="New York">
+          </div>
+        </div>
+
       </div>
     
       <!-- Left and right controls -->
@@ -111,6 +123,9 @@
       </a>
     </div>
 
+    <div>
+      <h1 id="titulo">Productos mas Vendidos</h1>
+    </div>
 
     <div id="div-catalogo">
       <ul id="catalogo">
@@ -193,14 +208,74 @@
               </div>
             </p>
           </li>
-          
       </ul>
 
-      <ul id="catalogo">
-        <li id="catalogo-li">
-          <a href="producto.html">
-            <img id="xd" src="images/U7Q4UBXYQNFINOD6SDC5R3WWU4.jpg">
-          </a>            <p>
+      <div class="contenedor">
+        <div class="descripcion">
+          <h2>Mapa</h2>
+          <p>Es común que en ocasiones necesitemos acudir a una farmacia de manera urgente, ya sea para conseguir un medicamento que nos han recetado, para comprar productos de cuidado personal o para atender alguna emergencia médica. En estos casos, es fundamental saber cuál es la farmacia más cercana a nuestra ubicación. </p>
+        </div>
+        <div class="imagen">
+          <a href="farmacias.html">
+            <img src="images/E473U5GYAJE7PKRHCPIEIGDHKU.jpg" alt="Descripción de la imagen">
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h1 id="titulo">Ofertas</h1>
+      </div>
+      <div id="div-catalogo">
+        <ul id="catalogo">
+          <li id="catalogo-li">
+            <a href="producto.html">
+              <img id="xd" src="images/13238-hipoglos-achipoglos-6250-ui-unguento-60-gr-+-20-gratis.jpg">
+            </a>            <p>
+                <div class="desc-producto">
+                  <span>Titulo</span>
+                  <span class="material-symbols-outlined" id="iconos">
+                      favorite
+                  </span>
+                  </span>
+                  <br/>
+                  <span>Descripcion</span>
+                </div>
+              </p>
+          </li>
+          <li id="catalogo-li">
+            <a href="producto.html">
+              <img id="xd" src="images/388329-freestyle-libre-sensor-de-glucosa-1-unidad.jpg">
+            </a>            <p>
+                <div class="desc-producto">
+                  <span>Titulo</span>
+                  <span class="material-symbols-outlined" id="iconos">
+                      favorite
+                  </span>
+                  </span>
+                  <br/>
+                  <span>Descripcion</span>
+                </div>
+              </p>
+          </li>
+          <li id="catalogo-li">
+            <a href="producto.html">
+              <img id="xd" src="images/274536-centrum-mujer-multivitaminico--multimineral-30-comprimidos-recubiertos.jpg">
+            </a>            <p>
+                <div class="desc-producto">
+                  <span>Titulo</span>
+                  <span class="material-symbols-outlined" id="iconos">
+                      favorite
+                  </span>
+                  </span>
+                  <br/>
+                  <span>Descripcion</span>
+                </div>
+              </p>
+          </li>
+          <li id="catalogo-li">
+            <a href="producto.html">
+              <img id="xd" src="images/254966-comprimido-my-favorite-90-unidades.jpg">
+            </a>          <p>
               <div class="desc-producto">
                 <span>Titulo</span>
                 <span class="material-symbols-outlined" id="iconos">
@@ -211,10 +286,11 @@
                 <span>Descripcion</span>
               </div>
             </p>
-        </li>
-        <li id="catalogo-li">
-            <img id="xd" src="images/288110-comprimido-berries-20-unidades.jpg" >
-            <p>
+          </li>
+          <li id="catalogo-li">
+            <a href="producto.html">
+              <img id="xd" src="images/275859-natural-care-disney-panal-unisex-maxima-proteccion-m-55-a-95-kg-x82.jpg">
+            </a>          <p>
               <div class="desc-producto">
                 <span>Titulo</span>
                 <span class="material-symbols-outlined" id="iconos">
@@ -225,52 +301,10 @@
                 <span>Descripcion</span>
               </div>
             </p>
-        </li>
-        <li id="catalogo-li">
-            <img id="xd" src="images/295823-vitamin-c--20-tabletas-efervecentes-sabor-limon-1000-mg (1).jpg">
-            <p>
-              <div class="desc-producto">
-                <span>Titulo</span>
-                <span class="material-symbols-outlined" id="iconos">
-                    favorite
-                </span>
-                </span>
-                <br/>
-                <span>Descripcion</span>
-              </div>
-            </p>
-        </li>
-        <li id="catalogo-li">
-          <img id="xd" src="images/295823-vitamin-c--20-tabletas-efervecentes-sabor-limon-1000-mg (1).jpg">
-          <p>
-            <div class="desc-producto">
-              <span>Titulo</span>
-              <span class="material-symbols-outlined" id="iconos">
-                  favorite
-              </span>
-              </span>
-              <br/>
-              <span>Descripcion</span>
-            </div>
-          </p>
-        </li>
-        <li id="catalogo-li">
-          <img id="xd" src="images/295823-vitamin-c--20-tabletas-efervecentes-sabor-limon-1000-mg (1).jpg">
-          <p>
-            <div class="desc-producto">
-              <span>Titulo</span>
-              <span class="material-symbols-outlined" id="iconos">
-                  favorite
-              </span>
-              </span>
-              <br/>
-              <span>Descripcion</span>
-            </div>
-          </p>
-        </li>
-        
-      </ul>
-    </div>
+          </li>
+          
+        </ul>
+      </div>
   <footer>
     <p><a href="contacto.html">CONTACTANOS</a></p>
   </footer>
