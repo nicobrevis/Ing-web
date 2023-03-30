@@ -108,7 +108,12 @@ li a:hover {
 ul#catalogo{
     list-style: none;
     display: flex;
-    margin: 2%;
+    background-color: #f07b7b;
+    padding: 10px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    
 }
 
 ul li#catalogo-li{
@@ -116,12 +121,14 @@ ul li#catalogo-li{
     margin: auto;
     width: auto;
     height: auto;
-    border: 4px solid #ffffffda;
+    border: 2px solid #000000da;
+    background-color: white;
 }
 
 img#xd{
     width: 10em;
     height: 11em;
+    border: 2px solid #000000da;
 }
 footer {
     text-align: center;
@@ -162,7 +169,7 @@ div#div-catalogo{
 }
 .desc-producto{
     text-align: center ;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .producto {
@@ -241,6 +248,7 @@ h1#titulo{
 .contenedor {
     display: flex;
     margin: 5%;
+    background-color: #87e98a;
 }
 
 
@@ -250,3 +258,10 @@ h1#titulo{
     height: auto;
     
 }
+.ofertas{
+    background-color: #f07b7b;
+    padding: 10px;
+    margin: auto;
+    width: auto;
+    height: auto;
+}   
