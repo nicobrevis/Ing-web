@@ -49,6 +49,24 @@ li#header1 a {
   text-decoration: none;
   border-right: 1px solid #bbb;
 }
+
+.search-bar{
+    display: flex;
+    padding: 13px;
+}
+
+
+
+.barra{
+    border-radius: 20px;
+}
+
+ul#navbar button {
+    float: left;
+    margin-top: 13px;
+    font-size: 4px;
+}
+
 .active1 {
     background-color: #e7b0d2;
 }
