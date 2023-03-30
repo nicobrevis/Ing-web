@@ -7,6 +7,8 @@ body{
     background-color: rgb(162, 224, 235) !important;
     margin: 0;
     margin-bottom: 40px;
+    height: 100%;
+    width: 100%;
 }
 #formulario{
     text-align: center;
@@ -39,7 +41,7 @@ li {
   float: left;
 }
 
-li a {
+li#header1 a {
   display: flex;
   color: yellow;
   text-align: center;
@@ -106,6 +108,7 @@ li a:hover {
 ul#catalogo{
     list-style: none;
     display: flex;
+    margin: 2%;
 }
 
 ul li#catalogo-li{
@@ -117,8 +120,8 @@ ul li#catalogo-li{
 }
 
 img#xd{
-    width: 100px;
-    height: 100px;
+    width: 10em;
+    height: 11em;
 }
 footer {
     text-align: center;
@@ -135,7 +138,9 @@ ul#form{
     justify-content: center;
 }
 div#div-catalogo{
-    margin: 2%;
+    margin-bottom: 5%;
+
+    
 }
 .map{
     text-align: left;
@@ -153,4 +158,62 @@ div#div-catalogo{
     margin-bottom: 2%;
     margin-right: 2%;
     margin-top: 0.5%;
+}
+.desc-producto{
+    text-align: center ;
+    border: 1px solid rgb(133, 130, 130);
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+div #product img {
+    max-width: 100%;
+    height: auto;
+}
+
+div #product h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.descripcion {
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+.precio {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.comprar {
+    background-color: #f44336;
+    margin: 5%;
+}
+
+.agregar {
+    background-color: #4CAF50;
+    margin: 5%;
 }
