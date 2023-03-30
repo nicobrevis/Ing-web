@@ -1,5 +1,12 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body{
     background-color: rgb(162, 224, 235) !important;
+    margin: 0;
+    margin-bottom: 40px;
 }
 #formulario{
     text-align: center;
@@ -103,10 +110,10 @@ ul#catalogo{
 
 ul li#catalogo-li{
     padding: 10px;
-    margin: 50px;
-    width: 120px;
+    margin: auto;
+    width: auto;
     height: auto;
-    border: 1px solid #262b28da;
+    border: 4px solid #ffffffda;
 }
 
 img#xd{
@@ -115,12 +122,35 @@ img#xd{
 }
 footer {
     text-align: center;
-    padding: 3px;
     background-color: DarkSalmon;
-    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
 }
+
 ul#form{
     list-style: none;
     display: flex;
     justify-content: center;
+}
+div#div-catalogo{
+    margin: 2%;
+}
+.map{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.map-text{
+    margin-left: 2%;
+    color: rgb(231, 189, 110);
+}
+.iframe-map{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
 }
