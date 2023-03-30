@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(162, 224, 235) !important;
+}
+#formulario{
+    text-align: center;
+    margin: 10em;
+}
+
+header{
+    padding: 0%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(183, 116, 245);
+}
+
+
+.navbar-xd{
+    display: flex;
+    margin: auto;
+    padding: 4em;
+}
+ul#header{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(183, 116, 245);
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+.active1 {
+    background-color: #e7b0d2;
+}
+li:last-child {
+    border-right: none;
+}
+
+li a:hover {
+    background-color: #777373;
+}
+.material-symbols-outlined{
+    font-size: 2em;
+    color: yellow;
+    display: flex;
+}
+.active2 {
+    background-color: #b9f796;
+}
+.rigth{
+    color: rgb(183, 116, 245);
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.carousel-item .d-flex {
+    height: 500px; /* ajusta la altura según tus necesidades */
+}
+.material-symbols-outlined#iconos{
+    float: right;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+ul#catalogo{
+    list-style: none;
+    display: flex;
+}
+
+ul li#catalogo-li{
+    padding: 10px;
+    margin: 50px;
+    width: 120px;
+    height: auto;
+    border: 1px solid #262b28da;
+}
+
+img#xd{
+    width: 100px;
+    height: 100px;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
+ul#form{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
