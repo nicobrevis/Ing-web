@@ -237,6 +237,33 @@ button {
     cursor: pointer;
 }
 
+button#alfa {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  button#alfa:hover {
+    background-color: #036cff;
+    color: #000000;
+  }
+  
+  button#alfa:hover::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 12px; /* aumentar el valor de border-radius */
+    background-color: #036cff;
+    z-index: -1;
+  }
+
 .comprar {
     background-color: #f44336;
     margin: 5%;
