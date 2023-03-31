@@ -1,17 +1,17 @@
 html {
     min-height: 100%;
     position: relative;
-    font-family: 'Paytone One', sans-serif;
+    
 }
 
 body{
-    background-color: rgb(162, 224, 235) !important;
+    background-color: rgba(231,238,208,255) !important;
     margin: 0;
     margin-bottom: 40px;
     height: 100%;
     width: 100%;
-    font-family: 'Paytone One', sans-serif;
 }
+
 #formulario{
     text-align: center;
     margin: 10em;
@@ -35,7 +35,7 @@ ul#navbar{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(183, 116, 245);
+  background-color: rgba(46,20,55,255);
   z-index: 9999;
 }
 
@@ -45,7 +45,8 @@ li {
 
 li#header1 a {
   display: flex;
-  color: yellow;
+  color: rgba(231,238,208,255)
+  ;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -69,9 +70,6 @@ ul#navbar button {
     font-size: 4px;
 }
 
-.active1 {
-    background-color: #e7b0d2;
-}
 li:last-child {
     border-right: none;
 }
@@ -81,14 +79,17 @@ li a:hover {
 }
 .material-symbols-outlined{
     font-size: 2em;
-    color: yellow;
+    color: rgb(183, 116, 245);
     display: flex;
 }
+.active1 {
+    background-color: rgba(46,20,55,255);
+}
 .active2 {
-    background-color: #b9f796;
+    background-color: rgba(46,20,55,255);
 }
 .active3 {
-    background-color: rgba(73, 157, 157, 0.999);
+    background-color: rgba(46,20,55,255);
 }
 .rigth{
     color: rgb(183, 116, 245);
@@ -128,10 +129,11 @@ li a:hover {
     'opsz' 48
 }
 
+/* catalogo */
 ul#catalogo{
     list-style: none;
     display: flex;
-    background-color: #f07b7b;
+    background-color: rgba(231,238,208,255);
     padding: 10px;
     margin: auto;
     width: auto;
@@ -239,6 +241,41 @@ button {
     cursor: pointer;
 }
 
+/* login */
+button#alfa {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+}
+
+button#alfa:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+button#alfa:hover::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 255, 255, 0.4),
+            0 0 20px 20px rgba(0, 255, 255, 0.3),
+            0 0 30px 30px rgba(0, 255, 255, 0.2);
+    z-index: -1;
+}
+
+/* registrarse */
+
+
+
+
 .comprar {
     background-color: #f44336;
     margin: 5%;
@@ -271,7 +308,7 @@ h1#titulo{
 .contenedor {
     display: flex;
     margin: 5%;
-    background-color: #87e98a;
+    background-color: rgba(202,209,195,255);
 }
 
 

@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Pagina de inicio de sesion</title>
+    <title>Pagina de registro</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -32,7 +32,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
-  <body class="login">
+  <body>
     <header>
         <nav>
           <ul id="navbar">
@@ -72,21 +72,28 @@
           </ul>
         </nav>
       </header>
-    <div class="login">
-        <h2>Iniciar sesión</h2>
-        <form>
-          <input type="text" placeholder="Nombre de usuario">
-          <input type="password" placeholder="Contraseña">
-          <button id="alfa" type="submit">Iniciar sesión</button>
+      <div class="container">
+        <h1 id="register">Registro</h1>
+        <form id="register">
+          <label id="register" for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+  
+          <label id="register" for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+  
+          <label id="register" for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label id="register" for="contrasena">Contraseña:</label>
+          <input type="password" id="contrasena" name="contrasena" required>
+  
+          <button id="registrarse" type="submit">Registrarse</button>
         </form>
-        <p>¿No tienes una cuenta? <a href="registrarse.html">Haz click Aquí</a></p>
       </div>
-    
   <footer>
     <p><a href="contacto.html">CONTACTANOS</a></p>
   </footer>
-    
-      
+
       <script src="js/app.js"></script>
     </body>
     </html>
