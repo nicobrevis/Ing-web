@@ -332,6 +332,7 @@ h1#titulo{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    text-align: bottom;
 }
   
 .contact-form h2 {
@@ -384,4 +385,9 @@ p{
 }
 h1#titulo{
     text-align: justify;
+}
+.contact-box{
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
 }
