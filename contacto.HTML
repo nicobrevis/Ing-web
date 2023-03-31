@@ -42,7 +42,7 @@
             pill
             </span>Medicamentos</a></li>
             
-          <li id="header1"><a href="#contact"><span class="material-symbols-outlined">
+          <li id="header1"><a href="contacto.HTML"><span class="material-symbols-outlined">
             contact_support
             </span>Contacto</a></li>
 
@@ -89,37 +89,24 @@
     
     
     <section>
-        <form id="formulario">
-          <ul id="form">
-            <li>
-            <span></span>
-            <label for="">Correo</label>
-            <input type="email" id="mail" />
-          </li>
-          
-          <li>
-            <label for="">Rut</label>
-            <input type="text" id="rut" />
-          </li>
-          
-          <li>
-            <label for="">Contrasenya</label>
-            <input type="password" id="pass" />
-          </li>
-          
-          <li>
-            <label for="">Repite contrasenya</label>
-            <input type="password" id="rePass" />
-          </li>
-          
-          <li>
-            <button type="submit">Registrarse</button>
-          </li>
-        </ul>
-      </form>
+      <div class="contact-form">
+        <h2>Contáctanos</h2>
+        <form>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required >
+    
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email"required >
+    
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
+    
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
     </section>
     <footer>
-      <p><a href="contacto.html">CONTACTANOS</a></p>
+    <p><a href="contacto.html">CONTACTANOS</a></p>
     </footer>
     <!--[if lt IE 7]>
       <p class="browsehappy">

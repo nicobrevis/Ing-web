@@ -23,7 +23,7 @@ header{
     text-align: center;
     background-color: rgb(183, 116, 245);
 }
-
+ 
 
 .navbar-xd{
     display: flex;
@@ -325,3 +325,55 @@ h1#titulo{
     width: auto;
     height: auto;
 }   
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+  
+.contact-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+  
+.contact-form textarea {
+    height: 150px;
+}
+  
+.contact-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.contact-form button[type="submit"]:hover {
+    background-color: #0069d9;
+}
