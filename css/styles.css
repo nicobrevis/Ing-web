@@ -377,3 +377,82 @@ h1#titulo{
 .contact-form button[type="submit"]:hover {
     background-color: #0069d9;
 }
+
+
+
+
+/*prueba*/
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    margin-right: 20px;
+  }
+  
+  .profile-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+  }
+  
+  .profile-info-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info-row span {
+    min-width: 120px;
+    font-weight: bold;
+  }
+  
+  .profile-favorites {
+    margin-top: 20px;
+  }
+  
+  .profile-favorites-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .view-all-favorites {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .view-all-favorites:hover {
+    background-color: #0062cc;
+  }
+  .favorites-list{
+    display: flex;
+  }
+  .favorites-list img{
+    width: 10em;
+    height: 11em;
+    border: 2px solid #000000da;
+  }
