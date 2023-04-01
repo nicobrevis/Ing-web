@@ -146,14 +146,14 @@ ul li#catalogo-li{
     margin: auto;
     width: auto;
     height: auto;
-    border: 2px solid #000000da;
+    border: 2px solid rgba(46,20,55,255);
     background-color: white;
 }
 
 img#xd{
     width: 10em;
     height: 11em;
-    border: 2px solid #000000da;
+    border: 2px solid rgba(46,20,55,255);
 }
 footer {
     text-align: center;
@@ -194,7 +194,7 @@ div#div-catalogo{
 }
 .desc-producto{
     text-align: center ;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(46,20,55,255);
 }
 
 .producto {
