@@ -32,7 +32,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
-  <body class="login">
+  <body>
     <header>
         <nav>
           <ul id="navbar">
@@ -60,9 +60,9 @@
             medical_information
             </span>Noticias</a></li>
             
-            <li id="header1" class="search-bar"><span class="material-symbols-outlined lupa">
+            <li id="header1" class="search-bar"><a href="no-encontrado.html"><span class="material-symbols-outlined lupa">
               search
-              </span><input class="barra" type="text" placeholder="Search.."></li>
+            </span></a><input class="barra" type="text" placeholder="Search.."></li>
             
             <li id="header1" style="float:right"><a class="active1 rigth" href="sobrenosotros.html"><span class="material-symbols-outlined rigth">
               groups
@@ -77,7 +77,7 @@
       </header>
     <div class="login">
         <h2>Iniciar sesión</h2>
-        <form>
+        <form class="login-form">
           <input type="text" placeholder="Nombre de usuario">
           <input type="password" placeholder="Contraseña">
           <button id="alfa" type="submit">Iniciar sesión</button>
