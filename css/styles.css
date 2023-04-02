@@ -23,7 +23,10 @@ header{
     text-align: center;
     background-color: rgb(183, 116, 245);
 }
- 
+
+a{
+    list-style: none;
+}
 
 .navbar-xd{
     display: flex;
@@ -49,19 +52,25 @@ li#header1 a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-right: 1px solid #bbb;
 }
 
 .search-bar{
     display: flex;
     padding: 0;
+    margin-bottom :-0.45%;
+    margin-top :-0.3%;
+    
+}
+.search-bar a{
+    margin-top: 1%;
     
 }
 
 .barra{
-    margin-top: 5% !important;
+    margin-top: 4% !important;
     border-radius: 20px;
-    margin-bottom: 3% !important;
+    margin-bottom: 4% !important;
+    width: 20em;
 }
 
 ul#navbar button {
@@ -148,6 +157,7 @@ ul li#catalogo-li{
     height: auto;
     border: 2px solid rgba(46,20,55,255);
     background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 img#redes{
@@ -185,23 +195,30 @@ div#div-catalogo{
     width: 100%;
     height: 100%;
     display: flex;
+    margin-bottom: 2%;
 
 }
 .map-text{
     margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
     color: rgb(231, 189, 110);
 }
 .iframe-map{
     margin-left: 2%;
     margin-bottom: 2%;
     margin-right: 2%;
-    margin-top: 0.5%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
 }
 .desc-producto{
     text-align: center ;
     border: 1px solid rgba(46,20,55,255);
 }
 
+img#imagen-producto{
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .producto {
     display: flex;
     flex-direction: column;
@@ -247,6 +264,46 @@ button {
 }
 
 /* login */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(202,209,195,255);
+}
+.login h2{
+    margin-top: 4%;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+button#alfa {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+input#input-iniciar-sesion{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46,20,55,255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
 button#alfa {
     background-color: #FFFFFF;
     color: #000000;
@@ -258,7 +315,7 @@ button#alfa {
 }
 
 button#alfa:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: #a600ff;
     color: #ffffff;
 }
 
@@ -312,6 +369,7 @@ input[type="text"], input[type="email"], input[type="password"] {
   border-radius: 5px;
   border: none;
   border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 button#registrarse {
@@ -322,6 +380,7 @@ button#registrarse {
     font-size: 16px;
     border-radius: 5px;
     position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 button#registrarse:hover {
@@ -347,11 +406,13 @@ button#registrarse:hover::after {
 .comprar {
     background-color: #f44336;
     margin: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .agregar {
     background-color: #4CAF50;
     margin: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1#titulo{
@@ -377,6 +438,7 @@ h1#titulo{
     display: flex;
     margin: 5%;
     background-color: rgba(202,209,195,255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -387,7 +449,6 @@ h1#titulo{
     
 }
 .ofertas{
-    background-color: #f07b7b;
     padding: 10px;
     margin: auto;
     width: auto;
@@ -401,6 +462,7 @@ h1#titulo{
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
   
 .contact-form h2 {
@@ -452,120 +514,158 @@ h1#titulo{
 
 /*perfil*/
 
-.profile {
+.perfil {
     max-width: 600px;
-    margin: 0 auto;
+    margin:  auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .profile-header {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(202,209,195,255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.clase-perfil {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-  }
-  
-  .profile-image {
+}
+
+.imagen-perfil {
     margin-right: 20px;
-  }
-  
-  .profile-image img {
+}
+
+.imagen-perfil img {
     width: 220px;
     height: 220px;
     object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
-  }
-  
-  .profile-info {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-perfil {
     margin-top: 20px;
-  }
-  
-  .profile-info-row {
+}
+
+.clase-info-perfil {
     display: flex;
-    margin-bottom: 10px;
-  }
-  
-  .profile-info-row span {
-    min-width: 120px;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+.clase-info-perfil p {
+
+    display: flex;
+}
+
+.material-symbols-outlined#edit{
+    font-size: 1.5em;
+    color: rgb(183, 116, 245);
+    display: flex;
+    text-align: right;
+}
+
+
+.clase-info-perfil span {
+    min-width: 70%;
     font-weight: bold;
-  }
-  
-  .profile-favorites {
-    margin-top: 20px;
-  }
-  
-  .profile-favorites-header {
     display: flex;
+}
+ 
+.favoritos {
+    margin-top: 20px;
+}
+
+.clase-favoritos {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
-  
-  .view-all-favorites {
+    text-align: center;
+}
+
+.ver-todos {
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    background-color: #a600ff;
     border-radius: 5px;
     transition: all 0.3s ease;
-  }
-  
-  .view-all-favorites:hover {
-    background-color: #0062cc;
-  }
-  .favorites-list{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ver-todos:hover {
+    background-color: rgba(46,20,55,255);
+}
+.imagenes-favoritos{
     display: flex;
-  }
-  .favorites-list img{
+}
+.imagenes-favoritos img{
     width: 10em;
     height: 11em;
-    border: 2px solid #000000da;
-  }
+    border: 2px solid  #a600ff;
+    border-radius: 5px;
+    margin: 20%;
+}
+.imagenes-favoritos a#imagen-fav{
+    margin: 2%;
+    
+}
+.imagenes-favoritos a#imagen-fav img{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
   /*favoritos*/
 
-  .favorites {
+  /*favoritos*/
+
+.favoritas {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-  }
-  
-  .favorites h2 {
+}
+
+.favoritas h2 {
     font-size: 2em;
     margin-bottom: 1em;
-  }
-  
-  .favorite-images {
+}
+
+.clase-favoritas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .favorite-image {
+    margin-bottom: 10%;
+}
+
+.clase-favorita {
     margin: 1em;
     max-width: 300px;
     cursor: pointer;
-  }
-  
-  .favorite-image img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.clase-favorita img {
     width: 100%;
-  }
-  
-  .favorite-image p {
+}
+
+.clase-favorita p {
     font-size: 1.2em;
     margin-top: 0.5em;
-  }
-  
-  .favorite-image:hover img {
+}
+
+.clase-favorita:hover img {
     transform: scale(1.2);
     transition: transform 0.2s ease-in-out;
-  }
-  
-  .view-more {
+}
+
+.ver-mas {
     display: block;
     margin: 2em auto;
     padding: 1em;
@@ -575,14 +675,31 @@ h1#titulo{
     color: #000;
     border-radius: 5px;
     transition: background-color 0.2s ease-in-out;
-  }
+}
+
+.ver-mas:hover {
+    background-color: #a600ff;
+    color: #fff;
+}
   
-  .view-more:hover {
+.view-more {
+    display: block;
+    margin: 2em auto;
+    padding: 1em;
+    border: 2px solid #000;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+.view-more:hover {
     background-color: #000;
     color: #fff;
-  }
+}
   
-  .imagen-derecha{
+.imagen-derecha{
     float: right;
     margin: 20px;
     width: 600px;
@@ -594,6 +711,7 @@ h1#titulo{
 .jumbotron{
     margin: 100px;
     padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .noticias1{
@@ -606,7 +724,13 @@ h1#titulo{
     height: auto;
 }
 
-
+.card{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #a600ff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .contact-box{
     margin: 5%;
     padding: 5%;
@@ -616,9 +740,42 @@ h1#titulo{
     text-align: center;
     margin-bottom: 2%;
 }
+.page-item{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .lupa{
-    margin-top: 8%;
-    
-    margin-left: 4%;
-    margin-right: 4%;
+    font-size: 2em;
+    color: rgb(183, 116, 245);
+    display: flex;
+    margin-bottom: -12%;
+}
+
+/*no encontrados*/
+
+.resultados{
+    padding: 3%;
+    text-align: center;
+}
+h1#resultado{
+    margin: 4%;
+}
+.no-encontrados{
+    margin-bottom: 15%;
+}
+ul#catalogo-no-encontrado{
+    list-style: none;
+    display: flex;
+    background-color: rgba(231,238,208,255);
+    padding: 10px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 4%;
+}
+
+/*medicamentos*/
+h1#titulo-navbar{
+    text-align: center;
+    margin: 2%;
+    margin-top: 6%;
 }

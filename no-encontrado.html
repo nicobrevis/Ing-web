@@ -58,9 +58,9 @@
             medical_information
             </span>Noticias</a></li>
           
-          <li id="header1" class="search-bar"><a href="no-encontrado.html"><span class="material-symbols-outlined lupa">
-          search
-          </span></a><input class="barra" type="text" placeholder="Search.."></li>
+            <li id="header1" class="search-bar"><a href="no-encontrado.html"><span class="material-symbols-outlined lupa">
+                search
+              </span></a><input class="barra" type="text" placeholder="Search.."></li>
           
           <li id="header1" style="float:right"><a class="active1 rigth" href="sobrenosotros.html"><span class="material-symbols-outlined rigth">
             groups
@@ -77,19 +77,94 @@
         </ul>
       </nav>
     </header>
-    
-    <h1 class="map-text" >ENCUENTRA TU FARMACIA MAS CERCANA</h1>
-    <div class="map">
-      <iframe class= "iframe-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d16325.460093475087!2d-71.55163385687474!3d-33.02385033929693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfarmacias!5e1!3m2!1ses-419!2scl!4v1680150689091!5m2!1ses-419!2scl" width="1080" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-      <h1>Tu ubicación: Plaza Vergara, Viña del Mar.
-      </h1>
+
+    <div class="no-encontrado resultados" >
+        <h1 id="resultado">Resultados para la búsqueda: </h1>
+        <p class="no-encontrados">No se encontraron productos con ese nombre.</p>
+        <h1 id="resultado">Productos que te podrían interesar.</h1>
+        <ul id="catalogo-no-encontrado">
+            <li id="catalogo-li">
+              <a href="producto.html">
+                <img id="xd" src="images/259839-vantux-max-capsula-60-unidades-biotina-015-mg.jpg">
+              </a>
+                
+                <p>
+                  <div class="desc-producto">
+                    <span>Titulo</span>
+                    <span class="material-symbols-outlined" id="iconos">
+                        favorite
+                    </span>
+                    </span>
+                    <br/>
+                    <span>Descripcion</span>
+                  </div>
+                    
+                </p>
+            </li>
+            <li id="catalogo-li">
+              <a href="producto.html">
+                <img id="xd" src="images/213062-capsulas-vitamina-e-30-unidades.jpg">
+              </a>
+                <p>
+                  <div class="desc-producto">
+                    <span>Titulo</span>
+                    <span class="material-symbols-outlined" id="iconos">
+                        favorite
+                    </span>
+                    </span>
+                    <br/>
+                    <span>Descripcion</span>
+                  </div>
+                </p>
+            </li>
+            <li id="catalogo-li">
+              <a href="producto.html">
+                <img id="xd" src="images/274648-hot-lubricante-de-40-ml.jpg">
+              </a>              <p>
+                  <div class="desc-producto">
+                    <span>Titulo</span>
+                    <span class="material-symbols-outlined" id="iconos">
+                        favorite
+                    </span>
+                    </span>
+                    <br/>
+                    <span>Descripcion</span>
+                  </div>
+                </p>
+            </li>
+            <li id="catalogo-li">
+              <a href="producto.html">
+                <img id="xd" src="images/288110-comprimido-berries-20-unidades.jpg">
+              </a>            <p>
+                <div class="desc-producto">
+                  <span>Titulo</span>
+                  <span class="material-symbols-outlined" id="iconos">
+                      favorite
+                  </span>
+                  </span>
+                  <br/>
+                  <span>Descripcion</span>
+                </div>
+              </p>
+            </li>
+            <li id="catalogo-li">
+              <a href="producto.html">
+                <img id="xd" src="images/295823-vitamin-c--20-tabletas-efervecentes-sabor-limon-1000-mg (1).jpg">
+              </a>            <p>
+                <div class="desc-producto">
+                  <span>Titulo</span>
+                  <span class="material-symbols-outlined" id="iconos">
+                      favorite
+                  </span>
+                  </span>
+                  <br/>
+                  <span>Descripcion</span>
+                </div>
+              </p>
+            </li>
+        </ul>
+        </div>
     </div>
-    
-    
-    <footer>
-      <p><a href="contacto.html">CONTACTANOS</a></p>
-    </footer>
     <!-- 
         <div id="overlay" onclick="off()">
             <div id="text">Overlay Text</div>
@@ -103,6 +178,9 @@
     
     
 
+    <footer>
+      <p><a href="contacto.html">CONTACTANOS</a></p>
+    </footer>
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please

@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("formulario").addEventListener("submit", function(evento){
-        console.log("PABLO BASTARDO");
         let email=document.getElementById("mail").value;
         let rut=document.getElementById("rut").value;
         let contra2=document.getElementById("rePass").value;
