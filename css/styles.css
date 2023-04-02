@@ -45,8 +45,7 @@ li {
 
 li#header1 a {
   display: flex;
-  color: rgba(231,238,208,255)
-  ;
+  color: rgba(231,238,208,255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,13 +54,14 @@ li#header1 a {
 
 .search-bar{
     display: flex;
-    padding: 13px;
+    padding: 0;
+    
 }
 
-
-
 .barra{
+    margin-top: 5% !important;
     border-radius: 20px;
+    margin-bottom: 3% !important;
 }
 
 ul#navbar button {
@@ -162,7 +162,7 @@ img#xd{
 }
 footer {
     text-align: center;
-    background-color: DarkSalmon;
+    background-color: rgba(46,20,55,255);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -400,6 +400,7 @@ h1#titulo{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    text-align: bottom;
 }
   
 .contact-form h2 {
@@ -605,3 +606,19 @@ h1#titulo{
     height: auto;
 }
 
+
+.contact-box{
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.navegacion{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.lupa{
+    margin-top: 8%;
+    
+    margin-left: 4%;
+    margin-right: 4%;
+}
