@@ -576,3 +576,27 @@ h1#titulo{
     color: #fff;
   }
   
+  .imagen-derecha{
+    float: right;
+    margin: 20px;
+    width: 600px;
+    height: 375px;
+    margin-left: 20px;
+    border: 2px solid #a600ff ;
+}
+
+.jumbotron{
+    margin: 100px;
+    padding: 100px;
+}
+
+.noticias1{
+    list-style: none;
+    display: flex;
+    background-color: rgba(231,238,208,255);
+    padding: 50px;
+    margin: 50px;
+    width: auto;
+    height: auto;
+}
+
