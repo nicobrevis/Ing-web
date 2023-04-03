@@ -1,20 +1,19 @@
-# ing-web
-Proyecto Ingeniería Web
+# Proyecto Ingeniería Web
 
+## Autores
 
-Ivan Galaz
-
-Nicolas Brevis
-
-Pablo Ortiz
-
-Darien Pacheco
+- [@nicobrevis](https://www.github.com/nicobrevis)
+- [@prindoxx](https://www.github.com/prindoxx)
+- [@DarienPacheco](https://www.github.com/DarienPacheco)
+- [@Ivan-galaz](https://www.github.com/Ivan-galaz)
 
 
 
 
+## Docente
 
-Dra. Sandra Cano
+
+- [@sancano22](https://github.com/sancano22)
 
 
 
@@ -67,19 +66,17 @@ No funcionales:
 
 
 
+## Interfaces
 
-Interfaces: (no tiene que ser perfecto, es una maquetación)
-
-
- Inicio. Listo
- Farmacias cercanas. Listo
- Página del medicamento. Listo
- Redes sociales. Listo
- Perfil. Listo
- Noticias de medicamentos. Listo
- Contacto. Listo
- Favoritos. Listo
- Sobre nosotros. Listo
- Recuperar contraseña. Listo
- Producto no encontrado. Listo
- Medicamentos. Listo
+- Inicio.
+- Farmacias cercanas.
+- Página del medicamento.
+- Redes sociales.
+- Perfil.
+- Noticias de medicamentos.
+- Contacto.
+- Favoritos.
+- Sobre nosotros.
+- Recuperar contraseña.
+- Producto no encontrado.
+- Medicamentos.
