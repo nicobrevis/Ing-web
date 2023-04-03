@@ -71,4 +71,3 @@
 - Recuperar contraseña.
 - Producto no encontrado.
 - Medicamentos.
-- 
