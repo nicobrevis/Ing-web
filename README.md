@@ -17,7 +17,7 @@
 
 ## Fecha
 
-2 de abril, 2023
+Domingo 2 de Abril, 2023
 
 
 ## Análisis de requerimientos
