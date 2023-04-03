@@ -3,8 +3,11 @@ Proyecto Ingeniería Web
 
 
 Ivan Galaz
+
 Nicolas Brevis
+
 Pablo Ortiz
+
 Darien Pacheco
 
 
