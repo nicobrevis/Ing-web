@@ -309,6 +309,21 @@ button {
     background-color: rgba(202,209,195,255);
     
 }
+@media screen and (max-width: 1010px){
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        background-color: rgba(202,209,195,255);
+        
+    }
+}
+
 .login h2{
     margin-top: 4%;
 }
@@ -330,7 +345,7 @@ button#alfa {
     
 }
 
-input#input-iniciar-sesion{
+input#nombre,input#contrasenya{
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46,20,55,255);
@@ -868,4 +883,8 @@ h1#titulo-navbar{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+label.error{
+    color:red;
 }
