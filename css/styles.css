@@ -202,11 +202,12 @@ img#xd{
 footer {
     text-align: center;
     background-color: rgba(46,20,55,255);
-    position:absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
-    height: 40px;
     display: block;
+
 }
 
 ul#form{
