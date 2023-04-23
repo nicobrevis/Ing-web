@@ -161,6 +161,33 @@ ul li#catalogo-li{
     border-radius: 3%;
 }
 
+div#catalogo-li{
+    padding: 10px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    border: 2px solid rgba(46,20,55,255);
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 3%;
+}
+
+
+img#xd{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(46,20,55,255);
+    border-radius: 3%;
+}
+@media screen and (max-width: 768px) {
+    img#xd {
+        width:100%;
+        height: auto;
+      /* Anula los estilos aplicados a la ID en pantallas pequeñas */
+      /* Puedes dejarlo vacío o establecer los estilos que deseas que se apliquen en pantallas pequeñas */
+    }
+  }
+
 img#redes{
     width: 15em;
     height: 15em;
@@ -340,7 +367,7 @@ button#alfa:hover::after {
     z-index: -1;
 }
 
-/* registrarse */
+/* registrarse 
 
 .container {
     width: 5000px;
@@ -352,7 +379,7 @@ button#alfa:hover::after {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: rgba(46,20,55,255);
     z-index: -1;
-  }
+  }*/
 
 form#register {
     display: flex;
@@ -445,6 +472,14 @@ h1#titulo{
     
 }
 /* Estilos para el contenedor principal */
+
+div#mapa {
+    
+    margin: 5%;
+    background-color: rgba(202,209,195,255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .contenedor {
     display: flex;
     margin: 5%;
