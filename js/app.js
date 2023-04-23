@@ -36,3 +36,12 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+function hamburger() {
+  var x = $("#navbar");
+  if (x.attr("class") === "topnav") {
+    x.addClass("responsive");
+  } else {
+    x.removeClass("responsive");
+  }
+}
