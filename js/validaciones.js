@@ -71,6 +71,27 @@ $("#formulario-registro").validate({
     }
    });
 
+$("#registro").validate({
+
+    rules:{
+      email:{
+        required:true,
+        email:true
+      }
+    },
+    messages:{
+      email:{
+        required:"Este campo es obligatorio",
+        email:"Ingrese un correo electronico válido"
+      }
+    },
+  
+    submitHandler: function(form) {
+      form.submit();
+      alert("REGISTRO EXITOSO")
+    }
+   });
+
   jQuery.validator.addMethod("solo_letras", function(value, element) 
   {
     return this.optional(element) || /^[a-z ]+$/i.test(value);

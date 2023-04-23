@@ -398,7 +398,7 @@ button#alfa:hover::after {
     z-index: -1;
   }*/
 
-form#register {
+form#registro {
     display: flex;
     flex-direction: column;
     
