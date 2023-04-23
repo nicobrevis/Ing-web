@@ -776,8 +776,8 @@ div#mapa {
 .imagen-derecha{
     float: right;
     margin: 20px;
-    width: 600px;
-    height: 375px;
+    width: 50%;
+    height: 50%;
     margin-left: 20px;
     border: 2px solid #a600ff ;
 }
@@ -881,6 +881,15 @@ h1#titulo-navbar{
         display: flex;
     }
     
+}
+
+@media screen and (max-width: 1200px) {
+    .imagen-derecha{
+        width:100%;
+        height: auto;
+        float: none;
+        margin-left: 0;
+    }
 }
 
 .topnav .icon {
