@@ -39,7 +39,7 @@ function myFunction() {
 
 function hamburger() {
   var x = $("#navbar");
-  if (x.attr("class") === "topnav") {
+  if (x.attr("class") === "topnav" || x.attr("class") === "topnav sticky") {
     x.addClass("responsive");
   } else {
     x.removeClass("responsive");
