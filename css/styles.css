@@ -836,7 +836,7 @@ h1#resultado{
 .no-encontrados{
     margin-bottom: 15%;
 }
-ul#catalogo-no-encontrado{
+div#catalogo-no-encontrado{
     list-style: none;
     display: flex;
     background-color: rgba(231,238,208,255);
