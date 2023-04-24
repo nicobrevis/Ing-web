@@ -592,7 +592,7 @@ div#mapa {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-top: 5%;
+    margin-top: 100px;
     margin-bottom: 5%;
     background-color: rgba(202,209,195,255);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -657,7 +657,6 @@ div#mapa {
 .clase-favoritos {
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -682,10 +681,11 @@ div#mapa {
 }
 .imagenes-favoritos img{
     width: 10em;
-    height: 11em;
+    height: auto;
     border: 2px solid  #a600ff;
     border-radius: 5px;
     margin: 20%;
+    margin-left: 10px;
 }
 .imagenes-favoritos a#imagen-fav{
     margin: 2%;
@@ -882,6 +882,14 @@ h1#titulo-navbar{
     
 }
 
+@media screen and (max-width: 990px) {
+    .imagen-derecha{
+        width:100%;
+        height: auto;
+        float: none;
+        margin-left: 0;
+    }
+}
 .topnav .icon {
     display: none;
 }
