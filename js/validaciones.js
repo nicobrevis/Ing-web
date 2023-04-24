@@ -92,6 +92,42 @@ $("#registro").validate({
     }
    });
 
+$("#contacto").validate({
+
+  rules:{
+    name:{
+      required:true,
+      solo_letras:true,
+      maxlength: 1000
+    },
+    email: {
+      required: true,
+      email:true
+    },
+    message:{
+      required:true
+    }
+  },
+  messages:{
+    name:{
+      required:"Este campo es obligatorio",
+      maxlength:"Solo se pueden escribir mensajes de 1000 caracteres"
+    },
+    email: {
+      required: "Este campo es obligatorio",
+      email:"Ingrese un email válido"
+    },
+    message:{
+      required:"Este campo es obligatorio"
+    }
+  },
+
+  submitHandler: function(form) {
+    form.submit();
+    alert("REGISTRO EXITOSO")
+  }
+});
+
   jQuery.validator.addMethod("solo_letras", function(value, element) 
   {
     return this.optional(element) || /^[a-z ]+$/i.test(value);
