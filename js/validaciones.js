@@ -88,7 +88,7 @@ $("#registro").validate({
   
     submitHandler: function(form) {
       form.submit();
-      alert("REGISTRO EXITOSO")
+      alert("LISTO! REVISA TU CORREO ELECTRONICO")
     }
    });
 

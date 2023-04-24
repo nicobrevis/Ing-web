@@ -299,9 +299,6 @@ button {
 /* login */
 
 .login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 10%;
     margin-left: 30%;
     margin-right: 30%;
@@ -310,6 +307,14 @@ button {
     background-color: rgba(202,209,195,255);
     
 }
+form#formulario-registro{
+    text-align: left;
+}
+
+.texto-registro{
+    float: right;
+}
+
 @media screen and (max-width: 1010px){
     .login {
         display: flex;
@@ -402,11 +407,11 @@ form#register {
     display: flex;
     flex-direction: column;
     
-  }
+}
 
 h1#register {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 label#register {
@@ -830,7 +835,7 @@ div#mapa {
     text-align: center;
 }
 h1#resultado{
-    margin: 4%;
+    margin-top: 20%;
 }
 .no-encontrados{
     margin-bottom: 15%;
