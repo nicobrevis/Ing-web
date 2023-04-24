@@ -35,61 +35,72 @@
       <nav>
         <ul id="navbar" class="topnav">
           <li id="header1"><a href="index.html"><span class="material-symbols-outlined">
-                home
-              </span>Inicio</a></li>
-  
+            home
+            </span>Inicio</a></li>
+
           <li id="header1"><a href="medicamentos.html"><span class="material-symbols-outlined">
-                pill
-              </span>Medicamentos</a></li>
-  
+            pill
+            </span>Medicamentos</a></li>
+            
           <li id="header1"><a href="contacto.HTML"><span class="material-symbols-outlined">
-                contact_support
-              </span>Contacto</a></li>
-  
+            contact_support
+            </span>Contacto</a></li>
+
           <li id="header1"><a href="redes-sociales.html"><span class="material-symbols-outlined">
-                connect_without_contact
-              </span>Redes Sociales</a></li>
-  
+            connect_without_contact
+            </span>Redes Sociales</a></li>
+
           <li id="header1"><a href="farmacias.html"><span class="material-symbols-outlined">
-                location_on
-              </span>Farmacias Cercanas</a></li>
-  
+            location_on
+            </span>Farmacias Cercanas</a></li>
+
           <li id="header1"><a href="noticias.html"><span class="material-symbols-outlined">
-                medical_information
-              </span>Noticias</a></li>
-  
-          <li class="iconos-derecha" id="header1"><a class="active1 rigth"
-              href="sobrenosotros.html"><span class="material-symbols-outlined rigth">
-                groups
-              </span>Sobre Nosotros</a></li>
-  
-          <li class="iconos-derecha" id="header1" ><a class="active2 rigth" href="perfil.html"> <span
-                class="material-symbols-outlined rigth">
-                account_circle
-              </span>Perfil</a></li>
-  
-          <li class="iconos-derecha" id="header1" ><a class="active3 rigth" href="login.html"> <span
-                class="material-symbols-outlined rigth">
-                account_circle
-              </span>Log in</a></li>
+            medical_information
+            </span>Noticias</a></li>
+            
           <li id="header1" class="search-bar"><a href="no-encontrado.html"><span class="material-symbols-outlined lupa">
-              search
-              </span></a><input class="barra" type="text" placeholder="Search.."></li>
-          <a href="javascript:void(0);" class="icon" onclick="hamburger()">
-            <span class="material-symbols-outlined">
-              menu
-            </span>
-          </a>
+            search
+           </span></a><input class="barra" type="text" placeholder="Search.."></li> 
+          
+          <li class="iconos-derecha" id="header1" style="float:right"><a class="active1 rigth" href="sobrenosotros.html"><span class="material-symbols-outlined rigth">
+            groups
+            </span>Sobre Nosotros</a></li>
+
+          <li class="iconos-derecha" id="header1" style="float:right"><a  class="active2 rigth" href="perfil.html"> <span class="material-symbols-outlined rigth">
+            account_circle
+            </span>Perfil</a></li>
+
+          <li class="iconos-derecha" id="header1" style="float:right"><a  class="active3 rigth" href="login.html"> <span class="material-symbols-outlined rigth">
+            account_circle
+            </span>Log in</a></li>
+            
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+              <span class="material-symbols-outlined">
+                menu
+                </span>
+            </a>
         </ul>
       </nav>
     </header>
     
-    <h1 class="map-text" >ENCUENTRA TU FARMACIA MAS CERCANA</h1>
-    <div class="map">
-      <iframe class= "iframe-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d16325.460093475087!2d-71.55163385687474!3d-33.02385033929693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfarmacias!5e1!3m2!1ses-419!2scl!4v1680150689091!5m2!1ses-419!2scl" width="1080" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-      <h1>Tu ubicación: Plaza Vergara, Viña del Mar.
-      </h1>
+    <div class="container">
+      <div class="row justify-content-center" id="mapa">
+        <div class="col-sm-12">
+          <div class="descripcion">
+            <h1 class="map-text" >ENCUENTRA TU FARMACIA MAS CERCANA</h1>
+            <br>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="map">
+            <iframe class= "iframe-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d16325.460093475087!2d-71.55163385687474!3d-33.02385033929693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfarmacias!5e1!3m2!1ses-419!2scl!4v1680150689091!5m2!1ses-419!2scl" width="1080" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h1>Tu ubicación: Plaza Vergara, Viña del Mar.</h1>
+        </div>
+      </div>
     </div>
     
     
